@@ -1,0 +1,249 @@
+* {/* configuração da folha css */
+
+    margin: 0;/* aplicando margem '0' para a folha  */
+    padding: 0;/* aplicando espaço '0' interno */
+    box-sizing: border-box;/* definindo o tamnhopadrãoda caixa da folha*/
+
+}
+
+html, body {/* Definindo altura máxima da tela para o HTML e Body(sem barra de rolagem */
+
+    height: 100%;
+
+}
+
+.conteudo {/* Conteudo flexivel */
+
+    display: flex;
+
+}
+
+.menu-lateral {/* Configurações do menu laretal */
+
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: #4B53F2;
+
+}
+
+.posi-menu-lateral {/* Posição do menu lateral */
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.img-menu-lateral {/* alinhamento foto de perfil */
+
+    text-align: center;
+
+}
+
+.img-menu-lateral IMG {/* borda da foto de perfil */
+
+    width: 60%;
+    border: 2px solid #9B9FF2;
+    border-radius: 50%;
+
+}
+
+.MENU {/* alinhamento dos itens do menu */
+
+    text-align: center;
+
+}
+
+.MENU a {/* Parametros dos itens do menu */
+
+    margin-top: 20px;
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-family: Saira, sans-serif;
+
+}
+
+a:hover {/* Sublinhando itens do menu ao passar o cursor */
+
+    text-decoration: underline;
+    text-underline-offset: 4px;/* distanciamento do underline */
+
+}
+
+
+.descricao {/* posicionamendo da div de descrição do perfil */
+
+    position: absolute;
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    padding: 0 3%;
+
+}
+
+.info-perfil {/* posicionamento do menu lateral */
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);/* remove a diferenca no eixo Y fazendo com que o centro caixa seja considerado meio */
+
+}
+
+
+.info-perfil, .descricao, span { /* cor do Span no nome do perfil */
+
+    color: #9B9FF2;
+
+}
+
+.info-perfil h4 { /* informações de endereço no perfil */
+
+    font-family: 'Saira', sans-serif;
+    font-weight: 600;
+    position: fixed;
+    margin-top: 30px;
+    color: #676767;
+
+}
+
+
+.info-perfil p {/* Formatação e posicionamento da descrição na tela de sobre */
+
+    font-family: 'Saira', sans-serif;
+    padding-top: 10px;
+    position: fixed;
+    color: #676767;
+    font-size: 15px;
+    margin-top: 40px;
+    z-index: -10;/* profundidade do item "p" */
+   
+}
+
+.rede-social {/* distanciamento da caixa dos itens de contato */
+
+    margin-top: 100px;
+
+}
+
+.rede-social a {/* Formatação dos links de contato */
+
+    font-family: 'Saira', sans-serif;
+    font-size: 15px;
+    top: -7px;
+    position: relative;
+    text-decoration: none;
+    color: #8C4E18;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+.rede-social i {/* Posicionamento dos icones de contato */
+    
+    color: #8C4E18;
+    font-size: 30px;
+    font-weight: 10px;
+    line-height: 38px;
+
+}
+
+.info-perfil span h5 {/* formatação de textos com separação onde se usa 2 cores */
+
+    color: #219AAD;
+
+}
+
+ul { /* formatação e posicionamento geral de listas */
+
+    font-family: 'Saira', sans-serif;
+    color: #676767;
+    margin-top: 30px;
+    padding-left: 30px;
+    position: absolute;
+    top: -93px;
+
+}
+
+.info-perfil-educacao {/* infos de perfil com posicionamento e formatação */
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #636AF2;
+    font-family: 'Saira', sans-serif;
+
+}
+
+.info-perfil h2 {/* posicionamento e formatação de texto no perfil */
+
+    font-family: 'Saira', sans-serif;
+    margin-bottom: -10px;
+    position: relative;
+    color: #636AF2;
+
+}
+
+.educacao {/* posicionamento do menu de educação */
+
+
+    position: absolute;
+    top: -121px;
+
+}
+
+.info-perfil-experiencia { /* Posicionamento geral das infos de experiencia e seleção de fonte */
+
+    font-family: 'Saira', sans-serif;
+    position: relative;
+    top: 200px;
+
+}
+
+.info-perfil-experiencia h2 {/* título na aba de experiencia */
+
+    color: #636AF2;
+    position: fixed;
+    top: 165px;
+
+}
+
+.info-perfil-experiencia ul {/* ajuste de posicionamento na lista de experiencia */
+
+    position: fixed;
+    top: 193px;
+
+}
+
+footer{/* Formatação e posicionamento do nome da Escola no rodapé */
+
+    font-family: 'Saira', sans-serif;
+    font-weight: 600;
+    color: red;
+    position: fixed;
+    bottom: 10px;
+    right: 40px;
+
+}
+
+.emailAddress {/* Coloração do email na home */
+
+    color: #636AF2 !important;
+
+}
+
+.email, .email:hover{/* Remove a underline no email com e sem o cursor em cima */
+
+    text-decoration: none;
+
+}
+
+.MENU a.selecao2 {/* cor do menu quaqndo na página do mesmo */
+
+    color: #fca313;
+    font-weight: 600;
+
+}
